@@ -15,20 +15,10 @@ namespace SpecflowCursus.Steps
         static IWebDriver driver = driverGenerator.getDriver();
         HomePage homePage = new HomePage(driver);
 
-        [Given("the first number is (.*)")]
-        public void GivenTheFirstNumberIs(int number)
+        [Given(@"de gebruiker is op de ns website")]
+        public void GivenDeGebruikerIsOpDeNsWebsite()
         {
-            homePage.clickLogo();
-        }
-        [When("user inserts tracking point")]
-        public void WhenUserInsertsTrackingPoint()
-        {
-            homePage.insertTrackPoint("Eindhoven");
-        }
-        [When("user clicks on the first suggestion")]
-        public void WhenUserClicksOnTheFirstSuggestion()
-        {
-            homePage.clickLocation();
+            
         }
 
     }
