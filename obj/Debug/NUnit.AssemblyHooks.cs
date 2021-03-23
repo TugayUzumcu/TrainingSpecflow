@@ -7,7 +7,7 @@ using global::NUnit.Framework;
 using global::TechTalk.SpecFlow;
 using global::System.Runtime.CompilerServices;
 
-[GeneratedCode("SpecFlow", "3.6.23")]
+[GeneratedCode("SpecFlow", "3.7.38")]
 [SetUpFixture]
 public class SpecflowCursus_NUnitAssemblyHooks
 {

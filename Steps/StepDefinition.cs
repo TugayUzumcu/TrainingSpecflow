@@ -20,6 +20,16 @@ namespace SpecflowCursus.Steps
         {
             homePage.clickLogo();
         }
-      
+        [When("user inserts tracking point")]
+        public void WhenUserInsertsTrackingPoint()
+        {
+            homePage.insertTrackPoint("Eindhoven");
+        }
+        [When("user clicks on the first suggestion")]
+        public void WhenUserClicksOnTheFirstSuggestion()
+        {
+            homePage.clickLocation();
+        }
+
     }
 }

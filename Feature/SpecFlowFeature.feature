@@ -6,3 +6,5 @@
 @mytag
 Scenario: Add two numbers
 	Given the first number is 50
+	When user inserts tracking point
+	And user clicks on the first suggestion

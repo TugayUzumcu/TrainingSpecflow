@@ -22,7 +22,7 @@ namespace SpecflowCursus.DriverGenerator
         public void createDriver()
         {
             driver = new ChromeDriver();
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
         }
 
     }
