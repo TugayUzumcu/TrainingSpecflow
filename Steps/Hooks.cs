@@ -23,8 +23,6 @@ namespace SpecflowCursus.Steps
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
             wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//button[contains (text(), 'Akkoord')]")));
             cookie.Click();
-            //driver.FindElement(By.XPath("//button[contains (text(), 'Akkoord')]")).Click();
-            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
         }
 
         [AfterScenario]
