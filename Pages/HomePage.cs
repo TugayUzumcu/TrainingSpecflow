@@ -34,6 +34,11 @@ namespace SpecflowCursus.Pages
             wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//span[contains (text(), 'Eindhoven Centraal')]//parent::a")));
             firstSuggestion.Click();
         }
+
+        public void leeg()
+        {
+            
+        }
         
     }
 }
