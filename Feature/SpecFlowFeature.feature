@@ -23,4 +23,4 @@ Scenario Outline: Nederlandse Spoorwegen volgende dag boeken
 
 	Examples: 
 	| vertrekpunt | bestemming | datum    |
-	| Amsterdam   | Utrecht    | 30 maart |
+	| Amsterdam   | Utrecht    | 30 maart 2021 |

@@ -132,7 +132,7 @@ this.ScenarioInitialize(scenarioInfo);
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Nederlandse Spoorwegen volgende dag boeken")]
         [NUnit.Framework.CategoryAttribute("mytag")]
-        [NUnit.Framework.TestCaseAttribute("Amsterdam", "Utrecht", "30 maart", null)]
+        [NUnit.Framework.TestCaseAttribute("Amsterdam", "Utrecht", "30 maart 2021", null)]
         public virtual void NederlandseSpoorwegenVolgendeDagBoeken(string vertrekpunt, string bestemming, string datum, string[] exampleTags)
         {
             string[] @__tags = new string[] {

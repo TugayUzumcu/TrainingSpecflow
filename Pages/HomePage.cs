@@ -24,7 +24,7 @@ namespace SpecflowCursus.Pages
         private IWebElement destinationDropDown => driver.FindElement(By.XPath("//*[contains (text(), 'Utrecht Centraal')]"));
         private IWebElement plannenButton => driver.FindElement(By.XPath("//span[contains (text(), 'Plannen')]"));
         private IWebElement calendarBtn => driver.FindElement(By.XPath("//*[contains (@class, 'date-planner')]"));
-        private string calendarPickBtn = "//button[contains (@aria-label, 'datePick')]";
+        private string calendarPickBtn = "//button[@aria-label= 'datePick']";
 
         public void getHeaderPlanJeReis()
         {
