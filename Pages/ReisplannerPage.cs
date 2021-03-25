@@ -16,12 +16,5 @@ namespace SpecflowCursus.Pages
 
         }
 
-        private IWebElement ticketPriceTxt => driver.FindElement(By.XPath("(//span[contains (text(), '9,50')])[2]"));
-
-        public void getPrice()
-        {
-            string ticketprice = ticketPriceTxt.Text;
-            Assert.AreEqual(ticketprice, "€9,50");
-        }
     }
 }
